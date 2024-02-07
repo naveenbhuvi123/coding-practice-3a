@@ -1,0 +1,74 @@
+/* Write your code here. */
+.bg-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: roboto;
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.like-button {
+  border-radius: 10px;
+  height: 80px;
+  width: 120px;
+  background-color: #eab308;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.comment-button {
+  border-radius: 10px;
+  height: 80px;
+  width: 150px;
+  background-color: black;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.like-button {
+  border-radius: 10px;
+  height: 80px;
+  width: 120px;
+  background-color: #eab308;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
